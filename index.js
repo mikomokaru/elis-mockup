@@ -5,7 +5,7 @@ const swaggerUi = require('swagger-ui-express')
 const Airtable = require('airtable')
 const bodyParser = require('body-parser')
 const _ = require('lodash')
-Airtable.configure(require('airtable-auth'))
+Airtable.configure(require('./airtable-auth'))
 const base = Airtable.base('appb6z3h3fuTcygMi')
 
 app.use((req,res,next)=> {
