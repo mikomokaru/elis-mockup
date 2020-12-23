@@ -16,6 +16,7 @@ var/
 .installed.cfg
 *.egg
 *.nosync/
+airtable-auth.js
 
 # Serverless directories
 .serverless
